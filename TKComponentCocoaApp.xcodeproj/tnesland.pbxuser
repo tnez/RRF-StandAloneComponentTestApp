@@ -1,0 +1,94 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4052590312B9238B0053F4E1 /* TKComponentCocoaApp */;
+		activeTarget = 8D1107260486CEB800E47090 /* TKComponentCocoaApp */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* TKComponentCocoaApp */,
+		);
+		codeSenseManager = 4052590A12B923AB0053F4E1 /* Code sense */;
+		executables = (
+			4052590312B9238B0053F4E1 /* TKComponentCocoaApp */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 314123147;
+			PBXWorkspaceStateSaveDate = 314123147;
+		};
+		sourceControlManager = 4052590912B923AB0053F4E1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* TKComponentCocoaApp_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 900}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 169}";
+			sepNavWindowFrame = "{{19, 0}, {617, 1028}}";
+		};
+	};
+	4052590312B9238B0053F4E1 /* TKComponentCocoaApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TKComponentCocoaApp;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	4052590912B923AB0053F4E1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	4052590A12B923AB0053F4E1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4052592D12B926110053F4E1 /* AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {558, 900}}";
+			sepNavSelRange = "{311, 0}";
+			sepNavVisRange = "{0, 867}";
+			sepNavWindowFrame = "{{72, 0}, {617, 1028}}";
+		};
+	};
+	4052592E12B926110053F4E1 /* AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {607, 1184}}";
+			sepNavSelRange = "{203, 64}";
+			sepNavVisRange = "{172, 208}";
+			sepNavWindowFrame = "{{19, 0}, {617, 1028}}";
+		};
+	};
+	4052596A12B92F690053F4E1 /* SampleAppDefinition.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{127, 0}, {617, 1028}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* TKComponentCocoaApp */ = {
+		activeExec = 0;
+		executables = (
+			4052590312B9238B0053F4E1 /* TKComponentCocoaApp */,
+		);
+	};
+}
