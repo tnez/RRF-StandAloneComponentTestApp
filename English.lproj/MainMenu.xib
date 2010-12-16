@@ -2,14 +2,14 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.03">
 	<data>
 		<int key="IBDocument.SystemTarget">1050</int>
-		<string key="IBDocument.SystemVersion">9L31a</string>
-		<string key="IBDocument.InterfaceBuilderVersion">677</string>
+		<string key="IBDocument.SystemVersion">9L30</string>
+		<string key="IBDocument.InterfaceBuilderVersion">680</string>
 		<string key="IBDocument.AppKitVersion">949.54</string>
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="371"/>
 			<integer value="29"/>
+			<integer value="372"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1354,7 +1354,7 @@
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">CLICK TO START</string>
 								<object class="NSFont" key="NSSupport">
-									<string key="NSName">LetterGothicStd</string>
+									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">4.000000e+01</double>
 									<int key="NSfFlags">16</int>
 								</object>
@@ -1396,6 +1396,9 @@
 			</object>
 			<object class="NSCustomObject" id="456488919">
 				<string key="NSClassName">AppDelegate</string>
+			</object>
+			<object class="NSCustomObject" id="589006417">
+				<string key="NSClassName">TKSubject</string>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -1955,70 +1958,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: subject.study</string>
-						<reference key="source" ref="1011909033"/>
-						<reference key="destination" ref="456488919"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="1011909033"/>
-							<reference key="NSDestination" ref="456488919"/>
-							<string key="NSLabel">value: subject.study</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">subject.study</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">507</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: subject.subject_id</string>
-						<reference key="source" ref="288464641"/>
-						<reference key="destination" ref="456488919"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="288464641"/>
-							<reference key="NSDestination" ref="456488919"/>
-							<string key="NSLabel">value: subject.subject_id</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">subject.subject_id</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">508</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: subject.session</string>
-						<reference key="source" ref="813567594"/>
-						<reference key="destination" ref="456488919"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="813567594"/>
-							<reference key="NSDestination" ref="456488919"/>
-							<string key="NSLabel">value: subject.session</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">subject.session</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">509</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: subject.drug</string>
-						<reference key="source" ref="756923377"/>
-						<reference key="destination" ref="456488919"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="756923377"/>
-							<reference key="NSDestination" ref="456488919"/>
-							<string key="NSLabel">value: subject.drug</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">subject.drug</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">510</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: pathToDefinition</string>
 						<reference key="source" ref="443429637"/>
 						<reference key="destination" ref="456488919"/>
@@ -2032,6 +1971,78 @@
 						</object>
 					</object>
 					<int key="connectionID">511</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: study</string>
+						<reference key="source" ref="1011909033"/>
+						<reference key="destination" ref="589006417"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="1011909033"/>
+							<reference key="NSDestination" ref="589006417"/>
+							<string key="NSLabel">value: study</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">study</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">514</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: session</string>
+						<reference key="source" ref="813567594"/>
+						<reference key="destination" ref="589006417"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="813567594"/>
+							<reference key="NSDestination" ref="589006417"/>
+							<string key="NSLabel">value: session</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">session</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">518</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: drugCode</string>
+						<reference key="source" ref="756923377"/>
+						<reference key="destination" ref="589006417"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="756923377"/>
+							<reference key="NSDestination" ref="589006417"/>
+							<string key="NSLabel">value: drugCode</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">drugCode</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">521</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">subject</string>
+						<reference key="source" ref="456488919"/>
+						<reference key="destination" ref="589006417"/>
+					</object>
+					<int key="connectionID">522</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: subject_id</string>
+						<reference key="source" ref="288464641"/>
+						<reference key="destination" ref="589006417"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="288464641"/>
+							<reference key="NSDestination" ref="589006417"/>
+							<string key="NSLabel">value: subject_id</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">subject_id</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">523</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3131,6 +3142,11 @@
 						<reference key="object" ref="456488919"/>
 						<reference key="parent" ref="1049"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">512</int>
+						<reference key="object" ref="589006417"/>
+						<reference key="parent" ref="1049"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3354,6 +3370,7 @@
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
 					<string>502.IBPluginDependency</string>
+					<string>512.IBPluginDependency</string>
 					<string>56.IBPluginDependency</string>
 					<string>56.ImportedFromIB2</string>
 					<string>57.IBEditorWindowLastContentRect</string>
@@ -3522,8 +3539,8 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{628, 234}, {402, 269}}</string>
-					<string>{{628, 234}, {402, 269}}</string>
+					<string>{{466, 574}, {402, 269}}</string>
+					<string>{{466, 574}, {402, 269}}</string>
 					<reference ref="9"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -3608,6 +3625,7 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{{219, 102}, {245, 183}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3662,7 +3680,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">511</int>
+			<int key="maxID">523</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3689,11 +3707,13 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>sessionWindow</string>
 							<string>setupWindow</string>
+							<string>subject</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>NSWindow</string>
 							<string>NSWindow</string>
+							<string>TKSubject</string>
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">

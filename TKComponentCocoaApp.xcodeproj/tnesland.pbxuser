@@ -7,13 +7,21 @@
 		addToTargets = (
 			8D1107260486CEB800E47090 /* TKComponentCocoaApp */,
 		);
+		breakpoints = (
+		);
 		codeSenseManager = 4052590A12B923AB0053F4E1 /* Code sense */;
 		executables = (
 			4052590312B9238B0053F4E1 /* TKComponentCocoaApp */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 314123147;
-			PBXWorkspaceStateSaveDate = 314123147;
+			PBXPerProjectTemplateStateSaveDate = 314206605;
+			PBXWorkspaceStateSaveDate = 314206605;
+		};
+		perUserProjectItems = {
+			403E620312BA6C2E00542C0A /* PBXTextBookmark */ = 403E620312BA6C2E00542C0A /* PBXTextBookmark */;
+			403E62BF12BA9D0300542C0A /* PBXBookmark */ = 403E62BF12BA9D0300542C0A /* PBXBookmark */;
+			403E62D412BA9EE500542C0A /* PBXTextBookmark */ = 403E62D412BA9EE500542C0A /* PBXTextBookmark */;
+			403E62D612BA9EE500542C0A /* PBXTextBookmark */ = 403E62D612BA9EE500542C0A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4052590912B923AB0053F4E1 /* Source Control */;
 		userBuildSettings = {
@@ -26,6 +34,55 @@
 			sepNavVisRange = "{0, 169}";
 			sepNavWindowFrame = "{{19, 0}, {617, 1028}}";
 		};
+	};
+	403E620312BA6C2E00542C0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4052592D12B926110053F4E1 /* AppDelegate.h */;
+		rLen = 0;
+		rLoc = 2147483779;
+		rType = 0;
+	};
+	403E629812BA9A3C00542C0A /* TKSubject.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		path = TKSubject.h;
+		sourceTree = "<group>";
+	};
+	403E62BF12BA9D0300542C0A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 403E629812BA9A3C00542C0A /* TKSubject.h */;
+	};
+	403E62D412BA9EE500542C0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 403E62D512BA9EE500542C0A /* TKSubject.h */;
+		name = "TKSubject.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1608;
+		vrLoc = 0;
+	};
+	403E62D512BA9EE500542C0A /* TKSubject.h */ = {
+		isa = PBXFileReference;
+		name = TKSubject.h;
+		path = /Users/tnesland/Documents/development/rrf/StandAloneComponentTestApp/TKUtility.framework/Headers/TKSubject.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {566, 1046}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1608}";
+			sepNavWindowFrame = "{{15, 4}, {625, 1174}}";
+		};
+	};
+	403E62D612BA9EE500542C0A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4052592D12B926110053F4E1 /* AppDelegate.h */;
+		name = "AppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 556;
+		rType = 0;
+		vrLen = 999;
+		vrLoc = 0;
 	};
 	4052590312B9238B0053F4E1 /* TKComponentCocoaApp */ = {
 		isa = PBXExecutable;
@@ -52,6 +109,8 @@
 		};
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+		};
 	};
 	4052590912B923AB0053F4E1 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -67,22 +126,22 @@
 	4052592D12B926110053F4E1 /* AppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {558, 900}}";
-			sepNavSelRange = "{311, 0}";
-			sepNavVisRange = "{0, 867}";
-			sepNavWindowFrame = "{{72, 0}, {617, 1028}}";
+			sepNavSelRange = "{556, 0}";
+			sepNavVisRange = "{0, 999}";
+			sepNavWindowFrame = "{{2, 150}, {617, 1028}}";
 		};
 	};
 	4052592E12B926110053F4E1 /* AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {607, 1184}}";
-			sepNavSelRange = "{203, 64}";
-			sepNavVisRange = "{172, 208}";
-			sepNavWindowFrame = "{{19, 0}, {617, 1028}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1367, 1520}}";
+			sepNavSelRange = "{3162, 0}";
+			sepNavVisRange = "{1586, 804}";
+			sepNavWindowFrame = "{{615, 150}, {617, 1028}}";
 		};
 	};
-	4052596A12B92F690053F4E1 /* SampleAppDefinition.plist */ = {
+	4052596A12B92F690053F4E1 /* CuedRT_definition.plist */ = {
 		uiCtxt = {
-			sepNavWindowFrame = "{{127, 0}, {617, 1028}}";
+			sepNavWindowFrame = "{{607, -24}, {617, 1028}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* TKComponentCocoaApp */ = {

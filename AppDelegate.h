@@ -13,7 +13,7 @@
 
   IBOutlet NSWindow *setupWindow;
   IBOutlet NSWindow *sessionWindow;
-  TKSubject *subject;
+  IBOutlet TKSubject *subject;
   TKComponentController *component;
   NSString *pathToDefinition;
 
@@ -21,14 +21,19 @@
 
 @property (assign) IBOutlet NSWindow *setupWindow;
 @property (assign) IBOutlet NSWindow *sessionWindow;
-@property (nonatomic, retain) TKSubject *subject;
+@property (nonatomic, retain) IBOutlet TKSubject *subject;
 @property (nonatomic, retain) NSString *pathToDefinition;
 
+#pragma mark ACTIONS
 - (IBAction)browseForDefinition: (id)sender;
 - (IBAction)start: (id)sender;
 
+#pragma mark RESPONSES
 - (void)theComponentWillBegin: (NSNotification *)aNote;
 - (void)theComponentDidBegin: (NSNotification *)aNote;
 - (void)theComponentDidFinish: (NSNotification *)aNote;
+
+#pragma mark HELPER FUNCTIONS
+- (void)createTabDelimitedSubjectFile;
 
 @end

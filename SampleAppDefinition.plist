@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>TKComponentType</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>TKComponentName</key>
-	<string>Diary</string>
+	<string>CuedRT</string>
 	<key>TKComponentCocoaAppPath</key>
-	<string>/Applications/TextEdit.app</string>
+	<string>~/Desktop/CuedRT.app</string>
 </dict>
 </plist>

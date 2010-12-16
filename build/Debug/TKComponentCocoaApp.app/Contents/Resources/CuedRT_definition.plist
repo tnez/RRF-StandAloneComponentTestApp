@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TKComponentType</key>
+	<integer>1</integer>
+	<key>TKComponentName</key>
+	<string>CuedRT</string>
+	<key>TKComponentCocoaAppPath</key>
+	<string>~/Desktop/CuedRT.app</string>
+	<key>TKComponentCocoaAppInputDir</key>
+	<string>~/Desktop</string>
+	<key>TKComponentCocoaAppSupportFiles</key>
+	<array>
+		<string>/Users/tnesland/Documents/development/rrf/StandAloneComponentTestApp/build/Debug/TKComponentCocoaApp.app/_TEMP/current.info</string>
+	</array>
+	<key>TKComponentCocoaAppOutputDir</key>
+	<string>~/Desktop/CuedRT_DATA/</string>
+	<key>TKComponentCocoaAppShouldRenameOutputFiles</key>
+	<true/>
+</dict>
+</plist>
