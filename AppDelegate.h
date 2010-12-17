@@ -16,7 +16,6 @@
   IBOutlet TKSubject *subject;
   TKComponentController *component;
   NSString *pathToDefinition;
-
 }
 
 @property (assign) IBOutlet NSWindow *setupWindow;
