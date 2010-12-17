@@ -5,17 +5,21 @@
 	<key>TKComponentType</key>
 	<integer>1</integer>
 	<key>TKComponentName</key>
-	<string>CuedRT</string>
+	<string>Sample External App</string>
 	<key>TKComponentCocoaAppPath</key>
-	<string>~/Desktop/CuedRT.app</string>
+	<string>~/Path-to-some-app</string>
+	<key>TKComponentCocoaAppTaskName</key>
+	<string>MySampleApp</string>
 	<key>TKComponentCocoaAppInputDir</key>
-	<string>~/Desktop</string>
+	<string>~/Path-to-place-we-should-copy-support-files</string>
 	<key>TKComponentCocoaAppSupportFiles</key>
 	<array>
-		<string>/Users/tnesland/Documents/development/rrf/StandAloneComponentTestApp/build/Debug/TKComponentCocoaApp.app/_TEMP/current.info</string>
+		<string>/full-path-to-some-support-file</string>
 	</array>
 	<key>TKComponentCocoaAppOutputDir</key>
-	<string>~/Desktop/CuedRT_DATA/</string>
+	<string>~/Path-to-place-we-should-copy-data-files</string>
+	<key>TKComponentCocoaAppOutputFilesToIgnore</key>
+	<array/>
 	<key>TKComponentCocoaAppShouldRenameOutputFiles</key>
 	<true/>
 </dict>

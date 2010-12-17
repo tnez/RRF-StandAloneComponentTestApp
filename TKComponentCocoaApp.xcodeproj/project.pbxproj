@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		401B4E9712BABE4500941104 /* SampleDefinition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 401B4E9612BABE4500941104 /* SampleDefinition.plist */; };
 		4052591112B923FD0053F4E1 /* TKUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4052591012B923FD0053F4E1 /* TKUtility.framework */; };
 		4052592F12B926110053F4E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4052592E12B926110053F4E1 /* AppDelegate.m */; };
-		4052596B12B92F690053F4E1 /* CuedRT_definition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4052596A12B92F690053F4E1 /* CuedRT_definition.plist */; };
 		4052598B12B9311D0053F4E1 /* TKUtility.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4052591012B923FD0053F4E1 /* TKUtility.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -39,10 +39,10 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* TKComponentCocoaApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKComponentCocoaApp_Prefix.pch; sourceTree = "<group>"; };
+		401B4E9612BABE4500941104 /* SampleDefinition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleDefinition.plist; sourceTree = "<group>"; };
 		4052591012B923FD0053F4E1 /* TKUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TKUtility.framework; sourceTree = "<group>"; };
 		4052592D12B926110053F4E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4052592E12B926110053F4E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4052596A12B92F690053F4E1 /* CuedRT_definition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CuedRT_definition.plist; path = ../../../../Desktop/CuedRT_definition.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* TKComponentCocoaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKComponentCocoaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -123,7 +123,7 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
-				4052596A12B92F690053F4E1 /* CuedRT_definition.plist */,
+				401B4E9612BABE4500941104 /* SampleDefinition.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				4052596B12B92F690053F4E1 /* CuedRT_definition.plist in Resources */,
+				401B4E9712BABE4500941104 /* SampleDefinition.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
